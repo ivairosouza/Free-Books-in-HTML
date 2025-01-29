@@ -2,97 +2,297 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Book Collection</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Free Books in HTML</title>
 <style>
   body {
-  margin: 0;
-  padding: 0;
-  background-color: #fdf5e6;
-  color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
   }
   .container {
-  margin-top: 60px;
-  margin-left: 3%;
-  margin-right: 3%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-
-  h1, h2, h3, h4 {
-  text-align: center;
+  h1, h2 {
+    text-align: center;
+    color: #495057;
   }
-
-  .center {
-  text-align: center;
-  }
-
-  .right {
-  text-align: right;
-  margin-right: 15px;
-  }
-
-  a {
-  text-decoration: none;
-  }
-
-  a:hover {
-  text-decoration: underline;
-  }
-
   p {
-  font-size: 1.4em;
-  text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
   }
-
-  ol li {
-  font-size: 1.2em;
-  padding-bottom: 15px;
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin: 15px 0;
+    background: #f1f3f5;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  li:hover {
+    background: #e9ecef;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #868e96;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 </style>
 </head>
 <body>
   <div class="container">
-<h1>Welcome to my Book Collection</h1>
-<p class="center">
-Here are the books available to Download.
+    <h1>Free Books in HTML</h1>
+    <p style="text-align: center; font-size: 1.1em; margin-top: 10px;">
+  You are currently on a repository hosted on <strong>GitHub</strong>, a trusted and secure platform for developers. All files available here are safe, free of malicious scripts, and created using pure HTML and CSS. Feel free to browse and download without any concerns.
 </p>
-<small>On Android devices, after click the link, look on your download folder</small>
+    <p>Hello! My name is Ivair Oliveira Souza. I'm currently learning English and discovered <a href="https://www.gutenberg.org" target="_blank">Gutenberg.org</a>, a fantastic site offering free books in various formats, including EPUB, KINDLE, and HTML. Since I have some knowledge of HTML and CSS, I decided to download books in HTML format. However, I noticed that many files are not optimized for smartphones, with small fonts, excessive margins, poorly formatted indexes, and minimal styling.</p>
+    <p>To address this, I decided to create optimized versions of these books, making them more readable on all devices. You can still find the original versions at <a href="https://www.gutenberg.org" target="_blank">Gutenberg.org</a>, and audio versions at <a href="https://archive.org" target="_blank">Archive.org</a>. My versions include both text and audio (when available). Note that some books lack audio because I couldn't find a recording online, but this is rare.</p>
+    <h2>Available Books</h2>
+    <ul>
+      <li>
+        <strong>A Little Princess</strong>
+        <p>A story of resilience and imagination by Frances Hodgson Burnett.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/ALittlePrincess.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/37332" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>Alice in Wonderland</strong>
+        <p>Lewis Carroll's classic tale of adventure and whimsy.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/AliceInWonderland.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/11" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>Anne of Green Gables</strong>
+        <p>Follow the adventures of Anne, an imaginative orphan, by L. M. Montgomery.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/AnneOfGreenGables.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/45" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>Anne of The Island</strong>
+        <p>Anne Shirley leaves her home at Green Gables to pursue her dream of attending Redmond College in Kingsport, by L. M. Montgomery.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/AnneOfTheIsland.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/51" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>Around the world in 80 days</strong>
+        <p>Phileas Fogg makes a bet with his friends at the Reform Club that he can travel around the world in 80 days, by Jules Verne.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/AroundTheWorldIn80days.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/103" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>Candide - English</strong>
+        <p>A satire on the optimistic philosophical vision of the German thinker Gottfried Leibniz (1646 - 1716), by Voltaire.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/CandideByVoltaire.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/19942" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>Candide - French</strong>
+        <p>Une satire de la philosophie optimiste du penseur allemand Gottfried Leibniz (1646 - 1716), by Voltaire.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/Candide-byVoltaireFrench.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/4650" target="_blank">View on Gutenberg.org</a>
+      </li>
+        <li>
+        <strong>In Our Time</strong>
+        <p>A collection of short stories and vignettes by Ernest Hemingway.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/InOurTime.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/61085" target="_blank">View on Gutenberg.org</a>
+      </li>
+        <li>
+        <strong>Little Women</strong>
+        <p>The lives of the four March sisters, Meg, Jo, Beth, and Amy and as they grow up during the American Civil War, by Louisa May Alcott.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/LittleWomen.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/514" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>Margery Daw</strong>
+        <p>The story of Carrie Meeber who leaves her small town in Wisconsin to live with her married sister in Chicago, by Theodore Dreiser.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/SisterCarrie.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/233" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>Sister Carrie</strong>
+        <p>In Margery Daw, Bertha M. Clay explores themes of love, loss, and social class through the story of a young girl whose mother dies in a railroad accident.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/MargeryDaw.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/74956" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <!--<li>
+        <strong>The Picture of Dorian Gray - English</strong>
+        <p>The story of a young man named Dorian Gray, whose exquisite beauty captivates those around him Oscar Wilde.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/ThePictureOfDorianGray.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/4078" target="_blank">View on Gutenberg.org</a>
+      </li>-->
+      <li>
+        <strong>Le Portrait de Dorian Gray - French</strong>
+        <p>L'histoire d'un jeune homme nommé Dorian Gray, dont la beauté exquise séduit son entourage par Oscar Wilde.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/LePortraitDeDorianGray.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/14192" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>The Adventures of Sherlock Holmes</strong>
+        <p>A collection of thrilling detective stories by Arthur Conan Doyle.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/The-Adventures-of-Sherlock-Holmes.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/1661" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>The Adventures of Tom Sawyer</strong>
+        <p>The story Tom Sawyer who grows up along the Mississippi River in the fictional town of St. Petersburg, by Mark Twain.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheAdventuresOfTomSawyer.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/74" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>The Awakening</strong>
+        <p>The novel is about Edna Pontellier, a married woman who questions her roles as a mother and wife. It explores themes of identity, independence, and female sexuality, by Kate Chopin.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheAwakeningandSelectedShortStories.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/160" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>The Call of the Wild</strong>
+        <p>How Buck, a dog who is stolen from his home in California and sold into service as a sled dog in Alaska during the Klondike Gold, Rush by Jack London.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheCallOfTheWild.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/215" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>The Indian Queen</strong>
+        <p>Mahaska, a half-white, half-Indian woman rises to power among the Seneca tribe, by Ann S. Stephens.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheIndianQueen.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/74912" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+        <strong>Peter Pan</strong>
+        <p>A timeless tale of adventure and imagination by J. M. Barrie.</p>
+        <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/PeterPan.zip" download>Download</a>
+        <a href="https://www.gutenberg.org/ebooks/16" target="_blank">View on Gutenberg.org</a>
+      </li>
+      <li>
+    <strong>The Time Machine</strong>
+    <p>An iconic science fiction novella by H.G. Wells, exploring the concept of time travel and its consequences for humanity.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheTimeMachine.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/35" target="_blank">View on Gutenberg.org</a>
+  </li>
+    <li>
+    <strong>The Great Gatsby</strong>
+    <p>F. Scott Fitzgerald's classic tale of the American Dream, love, and tragedy in the roaring 1920s.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheGreatGatsby.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/64317" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <li>
+    <strong>The Happy Prince</strong>
+    <p>A touching story by Oscar Wilde about selflessness and compassion, told through a prince and a swallow.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheHappyPrinceandOtherTales.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/902" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <li>
+    <strong>The Legend of Sleepy Hollow</strong>
+    <p>Washington Irving's eerie tale of a headless horseman haunting the quiet village of Sleepy Hollow.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheLegendofSleepyHollow.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/41" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <li>
+    <strong>The War of the Worlds</strong>
+    <p>H.G. Wells' science fiction classic about humanity's fight for survival against an alien invasion.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheWarOfTheWorlds.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/36" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <li>
+    <strong>The Treasure Island</strong>
+    <p>Robert Louis Stevenson's legendary tale of pirates, treasure maps, and adventure on the high seas.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheTreasureIsland.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/120" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <li>
+    <strong>Three Stories & Ten Poems</strong>
+    <p>Ernest Hemingway's early collection of short stories and poems that reflect his unique literary style.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/ThreeStories&TenPoems.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/1722" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <li>
+    <strong>WALDEN</strong>
+    <p>Henry David Thoreau's reflection on simple living and self-reliance while residing in a small cabin near Walden Pond.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/WALDENandONTheDutyofCivilDisobedience.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/205" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <li>
+    <strong>Through the Looking Glass</strong>
+    <p>The sequel to Alice's Adventures in Wonderland, Lewis Carroll's whimsical tale continues with more curious adventures.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/ThroughLooking-Glass.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/12" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <!--<li>
+    <strong>Lulu's Library Vol I</strong>
+    <p>A charming collection of children's stories by Louisa May Alcott, filled with heartwarming lessons and adventures.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/Lulu-sLibrary-Vol1.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/18535" target="_blank">View on Gutenberg.org</a>
+  </li>-->
+  <li>
+    <strong>Lulu's Library Vol II</strong>
+    <p>The second volume of delightful tales for children by Louisa May Alcott, each story delivering moral lessons.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/Lulu-sLibrary-Vol2.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/18536" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <!--<li>
+    <strong>Lulu's Library Vol III</strong>
+    <p>The final volume in Louisa May Alcott's series, offering enchanting stories full of charm and wisdom for children.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/Lulu-sLibrary-Vol3.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/18537" target="_blank">View on Gutenberg.org</a>
+  </li>-->
+  <li>
+    <strong>A Tale of Two Cities</strong>
+    <p>Charles Dickens' historical novel set during the French Revolution, exploring themes of love, sacrifice, and redemption.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/ATaleOfTwoCities.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/98" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <li>
+    <strong>Les Miserables (English)</strong>
+    <p>Victor Hugo's monumental novel about justice, redemption, and love, set against the backdrop of revolutionary France.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/LesMiserables-byVictorHugo-English.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/135" target="_blank">View on Gutenberg.org</a>
+  </li>
+  <!--<li>
+    <strong>Les Miserables (French)</strong>
+    <p>The original French version of Victor Hugo's masterpiece, capturing the struggles and triumphs of its unforgettable characters.</p>
+    <a class="btn" href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/LesMiserablesFrench.zip" download>Download</a>
+    <a href="https://www.gutenberg.org/ebooks/17489" target="_blank">View on Gutenberg.org</a>
+  </li>-->
 
-<ol>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/ALittlePrincess.zip" download> - A Little Princess</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/AliceInWonderland.zip" download> - Alice In Wonderland</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/AnneOfGreenGables.zip" download> - Anne of Green Gables</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/AnneOfTheIsland.zip" download> - Anne of The Island</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/AroundTheWorldIn80days.zip" download> - Around The World in 80 days</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/CandideByVoltaire.zip" download> - Candide by Voltaire - English</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/Candide-byVoltaireFrench.zip" download> - Candide by Voltaire - French</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/InOurTime.zip" download> - In our Time</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/LePortraitDeDorianGray.zip" download> - Le Portrait de Dorian Gray - French</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/LittleWomen.zip" download> - Little Women</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/MargeryDaw.zip" download> - Margery Daw</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/PeterPan.zip" download> - Peter Pan</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/SisterCarrie.zip" download> - Sister Carrie</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/The-Adventures-of-Sherlock-Holmes.zip" download> - The Adventures of Sherlock Holmes</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheAdventuresOfTomSawyer.zip" download> - The Adventures of Tom Sawyer</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheAwakeningandSelectedShortStories.zip" download> - The Awakening</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheCallOfTheWild.zip" download> - The Call of the Wild</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheGreatGatsby.zip" download> - The Great Gatsby</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheHappyPrinceandOtherTales.zip" download> - The Happy Prince</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheIndianQueen.zip" download> - The Indian Queen</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheLegendofSleepyHollow.zip" download> - The Legend of Sleepy Hollow</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheTimeMachine.zip" download> - The Time Machine</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheTreasureIsland.zip" download> - The Treasure Island</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/TheWarOfTheWorlds.zip" download> - The War of he Worlds</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/ThreeStories%26TenPoems.zip" download> - Three Stories & Ten Poems</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/ThroughLooking-Glass.zip" download> - Through Looking Glass</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/WALDENandONTheDutyofCivilDisobedience.zip" download> - WALDEN</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/Lulu-sLibrary-Vol2.zip" download> - Lulu's Library Vol II</a></li>
-<li><a href="https://raw.githubusercontent.com/ivairosouza/Free-Books-in-HTML/main/ATaleOfTwoCities.zip" download> - A Tale Of Two Cities</a></li>
-</ol>
+    </ul>
   </div>
-  
-
-
-<footer>
-</footer>
+  <div class="footer">
+    <p>All rights for the original books belong to the public domain. This project is a personal initiative to make reading easier.</p>
+  </div>
 </body>
 </html>
